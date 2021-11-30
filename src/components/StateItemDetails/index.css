@@ -1,0 +1,51 @@
+.state-details-ul-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  text-align: right;
+}
+.state-details-li-item {
+  list-style-type: none;
+  margin-right: auto;
+  width: 40%;
+}
+.state-details-li-count {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  margin-right: 30px;
+  color: #94a3b8;
+}
+.state-details-li-state-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 9px;
+  color: #94a3b8;
+
+  margin-right: 7px;
+}
+@media (min-width: 768px) {
+  .state-details-ul-item {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+  }
+  .state-details-li-item {
+    width: 30%;
+  }
+  .state-details-li-state-name {
+    font-size: 14px;
+    margin-left: 9px;
+  }
+  .state-details-li-count {
+    font-size: 19px;
+  }
+}

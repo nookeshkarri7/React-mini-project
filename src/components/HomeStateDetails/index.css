@@ -1,0 +1,63 @@
+.states-data-container-each {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #f1f5f9;
+  width: 839px;
+  padding: 10px;
+}
+
+.state-data-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  width: 210px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.state-data-confirm-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ff073a;
+}
+
+.state-data-active-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #007bff;
+}
+
+.state-data-recovered-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #28a745;
+}
+
+.state-data-deceased-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6c757d;
+}
+
+.state-data-population-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #94a3b8;
+}

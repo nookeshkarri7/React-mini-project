@@ -1,0 +1,104 @@
+.about-container {
+  background-color: #161625;
+  height: 380vh;
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.text-align-footer {
+  text-align: center;
+  margin: auto;
+}
+.about-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f8fafc;
+}
+.last-updated-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #94a3b8;
+}
+.about-para-vaccines {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e2e8f0;
+}
+.about-faqs {
+  padding: 5px;
+}
+
+.about-faq-li-item {
+  list-style-type: none;
+}
+.about-footer {
+  background-color: #161625;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-page-main {
+  background-color: #161625;
+}
+.about-title {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.para-footer-about {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.about-footer-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.about-footer-icons {
+  margin-right: 15px;
+  width: 41px;
+  height: 31px;
+  color: #cbd5e1;
+}
+.footer-about {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .about-title {
+    font-size: 24px;
+  }
+  .last-updated-para {
+    font-size: 16px;
+  }
+  .about-para-vaccines {
+    font-size: 22px;
+  }
+  .about-container {
+    margin: 40px;
+  }
+  .about-footer-icons {
+    width: 42px;
+    height: 46px;
+  }
+}
