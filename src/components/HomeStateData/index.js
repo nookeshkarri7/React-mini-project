@@ -180,10 +180,10 @@ class HomeStateData extends React.Component {
     const {stateData, buttonEnabled} = this.state
     return (
       <div testid="stateWiseCovidDataTable" className="states-data-container">
-        <div className="states-data-head">
-          <div
+        <ul className="states-data-head">
+          <li
             testid="stateWiseCovidDataTable"
-            className="sort-icons-container-home"
+            className="sort-icons-container-home header-state-li-item"
           >
             <p>States/UT</p>
             <button
@@ -203,28 +203,28 @@ class HomeStateData extends React.Component {
             >
               <FcGenericSortingDesc className="sort-icons-home" />
             </button>
-          </div>
-          <div>
+          </li>
+          <li className="header-state-li-item">
             <p>Confirmed</p>
-          </div>
-          <div>
+          </li>
+          <li className="header-state-li-item">
             <p className="statesData-active-para">Active</p>
-          </div>
-          <div>
+          </li>
+          <li className="header-state-li-item">
             <p>Recovered</p>
-          </div>
-          <div>
+          </li>
+          <li className="header-state-li-item">
             <p>Deceased</p>
-          </div>
-          <div>
+          </li>
+          <li className="header-state-li-item">
             <p>Population</p>
-          </div>
-        </div>
-        <div testid="stateWiseCovidDataTable" className="states-data-content">
+          </li>
+        </ul>
+        <ul testid="stateWiseCovidDataTable" className="states-data-content">
           {stateData.map(each => (
             <HomeStateDetails key={Object.keys(each)} states={each} />
           ))}
-        </div>
+        </ul>
       </div>
     )
   }

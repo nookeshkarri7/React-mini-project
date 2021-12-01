@@ -14,11 +14,17 @@ class Footer extends Component {
           we stand with everyone fighting on the front lines
         </p>
 
-        <div className="about-footer-buttons">
-          <VscGithubAlt className="about-footer-icons" />
-          <FiInstagram className="about-footer-icons" />
-          <FaTwitter className="about-footer-icons" />
-        </div>
+        <ul className="about-footer-buttons">
+          <li className="header-state-li-item">
+            <VscGithubAlt className="about-footer-icons" />
+          </li>
+          <li className="header-state-li-item">
+            <FiInstagram className="about-footer-icons" />
+          </li>
+          <li className="header-state-li-item">
+            <FaTwitter className="about-footer-icons" />
+          </li>
+        </ul>
       </div>
     )
   }

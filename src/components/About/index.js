@@ -13,7 +13,8 @@ class About extends Component {
   }
 
   getData = async () => {
-    let response = await fetch('https://apis.ccbp.in/covid19-faqs')
+    const options = {method: 'GET'}
+    let response = await fetch('https://apis.ccbp.in/covid19-faqs', options)
     response = await response.json()
     this.setState(prev => ({
       covidAboutData: response.faq,

@@ -10,7 +10,7 @@ class HomeStateDetails extends Component {
     //   console.log(confirmed)
 
     return (
-      <div className="states-data-container-each">
+      <li className="states-data-container-each">
         <div>
           <p className="state-data-name">{state}</p>
         </div>
@@ -29,7 +29,7 @@ class HomeStateDetails extends Component {
         <div>
           <p className="state-data-population-para">{population}</p>
         </div>
-      </div>
+      </li>
     )
   }
 }

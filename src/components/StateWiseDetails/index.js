@@ -168,7 +168,11 @@ class StateWiseDetails extends Component {
     const {match} = this.props
     const {params} = match
     const {stateCode} = params
-    let response = await fetch('https://apis.ccbp.in/covid19-state-wise-data')
+    const options = {method: 'GET'}
+    let response = await fetch(
+      'https://apis.ccbp.in/covid19-state-wise-data',
+      options,
+    )
     // const timeLinesData=await axios.get("https://apis.ccbp.in/covid19-timelines-data")
     response = await response.json()
 

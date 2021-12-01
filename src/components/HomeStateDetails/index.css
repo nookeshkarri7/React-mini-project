@@ -3,8 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   color: #f1f5f9;
-  width: 839px;
-  padding: 10px;
+  width: 820px;
+  margin-right: 30px;
+  padding-right: 5px;
 }
 
 .state-data-name {
@@ -14,8 +15,8 @@
   font-size: 14px;
   text-align: left;
   width: 210px;
-  margin-left: 15px;
-  margin-right: 20px;
+  /* margin-left: 5px; */
+  /* margin-right: 2px; */
 }
 .state-data-confirm-para {
   font-family: Roboto;
@@ -60,4 +61,7 @@
   font-size: 14px;
   line-height: 24px;
   color: #94a3b8;
+}
+.header-state-li-item {
+  list-style-type: none;
 }

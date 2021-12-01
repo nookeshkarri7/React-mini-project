@@ -14,7 +14,11 @@ class Home extends Component {
   }
 
   getData = async () => {
-    let response = await fetch('https://apis.ccbp.in/covid19-state-wise-data')
+    const options = {method: 'GET'}
+    let response = await fetch(
+      'https://apis.ccbp.in/covid19-state-wise-data',
+      options,
+    )
     response = await response.json()
     this.setState(prev => ({
       covidData: response,
