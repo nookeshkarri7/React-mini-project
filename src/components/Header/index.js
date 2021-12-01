@@ -39,14 +39,14 @@ class Header extends Component {
             </div>
             <ul className="header-links-desktop">
               <Link to="/" className="link-item-header-menu">
-                <li className="header-li-item">
-                  <p className="header-menuitem about-menu">Home</p>
+                <li className="header-li-item header-menuitem about-menu">
+                  Home
                 </li>
               </Link>
 
               <Link to="/about" className="link-item-header-menu">
-                <li className="header-li-item">
-                  <p className="header-menuitem about-menu">About </p>
+                <li className="header-li-item header-menuitem about-menu">
+                  About
                 </li>
               </Link>
             </ul>
@@ -56,14 +56,14 @@ class Header extends Component {
           <div className="header-menu-show-data">
             <ul className="header-links">
               <Link to="/" className="link-item-header-menu">
-                <li className="header-li-item">
-                  <p className="header-menuitem about-menu">Home</p>
+                <li className="header-li-item header-menuitem about-menu">
+                  Home
                 </li>
               </Link>
 
               <Link to="/about" className="link-item-header-menu">
-                <li className="header-li-item">
-                  <p className="header-menuitem about-menu">About </p>
+                <li className="header-li-item header-menuitem about-menu">
+                  About
                 </li>
               </Link>
             </ul>
